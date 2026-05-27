@@ -145,10 +145,10 @@ export default function Experience() {
                                />
                             </div>
                             <div>
-                               <h3 className="text-xl sm:text-2xl font-bold text-white mb-1">Innovation Participant</h3>
+                               <h3 className="text-xl sm:text-2xl font-bold text-white mb-1">Certificate ExplorAItion</h3>
                                <div className="flex items-center gap-2 text-blue-400/80 font-medium">
                                   <Building2 className="w-4 h-4" />
-                                  <span>ExplorAItion</span>
+                                  <span>Garuda Spark Innovation Hub</span>
                                </div>
                             </div>
                          </div>
