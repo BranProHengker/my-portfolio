@@ -80,6 +80,7 @@ export default function Footer() {
           {/* Brand & Services */}
           <div className="lg:col-span-1">
             <button
+              aria-label="Scroll to home section"
               onClick={() => scrollToSection("home")}
               className="group inline-block mb-6"
             >
@@ -187,6 +188,7 @@ export default function Footer() {
             <form onSubmit={handleSubscribe} className="space-y-3">
               <div className="relative">
                 <input
+                  aria-label="Email address for newsletter"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

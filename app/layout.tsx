@@ -16,11 +16,11 @@ const leagueSpartan = League_Spartan({
 
 export const metadata: Metadata = {
   title: {
-    default: "Gusti Gibran Avattar | Front-end Engineer & UI/UX Designer",
+    default: "Gusti Gibran Avattar | Front-end Engineer | Web Developer & UI/UX Designer in Malang",
     template: "%s | Gusti Gibran Avattar"
   },
   description:
-    "Transforming complex problems into elegant web experiences. Explore the portfolio of Gusti Gibran Avattar, a Front-end Engineer with immersive UI/UX design.",
+    "Transforming complex problems into elegant web experiences. Explore the portfolio of Gusti Gibran Avattar, a Front-end Engineer | Web Developer based in Malang, Indonesia.",
   keywords: [
     "Gusti Gibran Avattar", 
     "Who is Gusti Gibran Avattar",
@@ -31,7 +31,12 @@ export const metadata: Metadata = {
     "UI/UX Designer Indonesia", 
     "Frontend Developer Indonesia",
     "Frontend Engineer", 
-    "Web Developer Malang", 
+    "Web Developer Malang",
+    "Frontend Developer Malang",
+    "Frontend Engineer Malang",
+    "Software Engineer Malang",
+    "Programmer Malang",
+    "UI/UX Designer Malang",
     "React Ecosystem Developer",
     "Interactive Web Design",
     "Next.js Developer"
@@ -52,9 +57,9 @@ export const metadata: Metadata = {
     type: "profile",
     locale: "en_US",
     url: "https://gutsi.my.id",
-    title: "Gusti Gibran Avattar | Front-end Engineer & UI/UX Designer",
+    title: "Gusti Gibran Avattar | Front-end Engineer in Malang",
     description:
-      "Transforming complex problems into elegant web experiences. Explore the portfolio of Gusti Gibran Avattar, a Front-end Engineer blending the React ecosystem with immersive design.",
+      "Transforming complex problems into elegant web experiences. Explore the portfolio of Gusti Gibran Avattar, a Front-end Engineer based in Malang blending the React ecosystem with immersive design.",
     siteName: "Gusti Gibran Avattar Portfolio",
     images: [
       {
@@ -139,12 +144,12 @@ export default function RootLayout({
                   "@type": "Person",
                   name: "Gusti Gibran Avattar",
                   url: "https://gutsi.my.id",
-                  jobTitle: "Front-end Developer & UI/UX Designer",
+                  jobTitle: "Front-end Developer | Web Developer | UI/UX Designer",
                   image: "https://gutsi.my.id/saya-versi-ai.png",
                   sameAs: [
                     "https://github.com/BranProHengker", 
                     "https://www.linkedin.com/in/gusti-gibran-avattar-819455389/",
-                    "https://instagram.com/gustigibran"
+                    "https://www.instagram.com/bran.nnz/"
                   ],
                   description:
                     "Gusti Gibran Avattar is a passionate Front-end Developer and UI/UX Designer specializing in building immersive web applications with the React ecosystem and modern web technologies.",
@@ -153,6 +158,9 @@ export default function RootLayout({
                     "Front-end Development",
                     "React Ecosystem",
                     "Next.js",
+                    "React Native Expo",
+                    "AstroJs",
+                    "Angular",
                     "TypeScript",
                     "Tailwind CSS",
                     "Creative Coding",

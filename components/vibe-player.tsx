@@ -352,23 +352,24 @@ export default function VibePlayer() {
 
           {/* Controls */}
           <div className="flex items-center justify-between">
-            <button onClick={toggleMute} className="text-gray-400 hover:text-white transition-colors">
+            <button aria-label={isMuted ? "Unmute" : "Mute"} onClick={toggleMute} className="text-gray-400 hover:text-white transition-colors">
               {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
             </button>
 
             <div className="flex items-center gap-4">
-              <button onClick={playPrev} className="text-gray-300 hover:text-amber-400 transition-colors">
+              <button aria-label="Previous track" onClick={playPrev} className="text-gray-300 hover:text-amber-400 transition-colors">
                 <SkipBack size={18} fill="currentColor" />
               </button>
               
               <button 
+                aria-label={isPlaying ? "Pause" : "Play"}
                 onClick={togglePlay}
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-linear-to-br from-amber-400 to-amber-600 text-black shadow-lg shadow-amber-500/30 hover:scale-110 transition-transform active:scale-95"
               >
                 {isPlaying ? <Pause size={18} fill="currentColor" /> : <Play size={18} fill="currentColor" className="ml-1" />}
               </button>
 
-              <button onClick={playNext} className="text-gray-300 hover:text-amber-400 transition-colors">
+              <button aria-label="Next track" onClick={playNext} className="text-gray-300 hover:text-amber-400 transition-colors">
                 <SkipForward size={18} fill="currentColor" />
               </button>
             </div>
