@@ -69,10 +69,15 @@ export default function LoginPage() {
       return;
     }
 
-    // Initialize Supabase client only when needed
+    // Initialize Supabase client only when needed with 24h cookie expiration
     const supabase = createBrowserClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+      {
+        cookieOptions: {
+          maxAge: 86400, // 1x24 hours in seconds
+        }
+      }
     )
 
     // Convert simple username to email format

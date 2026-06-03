@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     "Avattar", 
     "Gusti Gibran Avattar Portfolio", 
     "Portofolio Gusti Gibran Avattar",  
+    "Gusti GIbran Avattar SMKN6 Malang",
+    "Gibran Arek Malang",
     "UI/UX Designer Indonesia", 
     "Frontend Developer Indonesia",
     "Frontend Engineer", 

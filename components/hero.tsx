@@ -100,7 +100,7 @@ export default function Hero() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
                 </span>
-                <span className="text-amber-200 text-xs font-medium tracking-wide uppercase">Curenntly doing an internship</span>
+                <span className="text-amber-200 text-xs font-medium tracking-wide uppercase">Currently open to work</span>
               </div>
             </div>
 
