@@ -24,6 +24,8 @@ function LoadingSection() {
   )
 }
 
+export const revalidate = 0;
+
 export default async function Home() {
   // Fetch projects on the server to prevent client waterfall
   let projectsData: any[] = [];
