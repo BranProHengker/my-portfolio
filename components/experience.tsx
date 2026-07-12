@@ -63,7 +63,11 @@ export default function Experience() {
               <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-linear-to-b from-amber-500/50 via-slate-500/30 to-transparent hidden sm:block" />
 
               {/* 3PM Solution Experience */}
-              <div ref={internRef as React.RefObject<HTMLDivElement>} className="relative pl-0 sm:pl-24 group">
+              <div
+                ref={internRef as React.RefObject<HTMLDivElement>}
+                className="relative pl-0 sm:pl-24 group cursor-pointer"
+                onClick={() => handleCertificateClick("/certifjuaravibecoding.jpeg", "3PM IT Solution Certificate")}
+              >
                 {/* Timeline Dot */}
                 <div className="absolute left-8 top-8 w-4 h-4 -translate-x-[7px] rounded-full border-2 border-[#C0151A] bg-[#1a1918] group-hover:bg-[#C0151A] transition-colors duration-300 z-10 hidden sm:block">
                    <div className="absolute inset-0 bg-[#C0151A]/50 rounded-full animate-ping opacity-0 group-hover:opacity-100" />
@@ -97,9 +101,16 @@ export default function Experience() {
                                <Calendar className="w-4 h-4" />
                                <span>Dec 2025 – Jun 2026</span>
                             </div>
-                            <div className="flex items-center gap-2">
-                               <MapPin className="w-4 h-4" />
-                               <span>Malang, ID</span>
+                            <div
+                              className="flex items-center gap-2 cursor-pointer group/cert"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleCertificateClick("/certifjuaravibecoding.jpeg", "3PM IT Solution Certificate");
+                              }}
+                            >
+                              <Award className="w-4 h-4 text-[#C0151A] group-hover/cert:text-[#C0151A]/80 transition-colors" />
+                              <MapPin className="w-4 h-4" />
+                              <span>Malang, ID</span>
                             </div>
                          </div>
                       </div>
